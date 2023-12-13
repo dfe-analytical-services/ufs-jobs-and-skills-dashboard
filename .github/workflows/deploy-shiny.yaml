@@ -35,11 +35,11 @@ jobs:
       - name: Set env vars (dev)
         if: endsWith(github.ref, '/development')
         run: |
-          echo "SHINYAPP_NAME='dev-jobs-and-skills-dashboard'" >> $GITHUB_ENV
+          echo "SHINYAPP_NAME='dev-ufs-jobs-and-skills-dashboard'" >> $GITHUB_ENV
       - name: Set env vars (prod)
         if: endsWith(github.ref, '/main')
         run: |
-          echo "SHINYAPP_NAME='jobs-and-skills-dashboard'">> $GITHUB_ENV
+          echo "SHINYAPP_NAME='ufs-jobs-and-skills-dashboard'">> $GITHUB_ENV
 
       - name: Cache R packages
         if: runner.os != 'Windows'
