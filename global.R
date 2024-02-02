@@ -14,22 +14,23 @@ shhh(library(shiny))
 shhh(library(shinyjs))
 shhh(library(tools))
 shhh(library(testthat))
-shhh(library(shinydashboard))
-shhh(library(shinyWidgets))
 shhh(library(shinyGovstyle))
-shhh(library(shinytitle))
-shhh(library(dplyr))
-shhh(library(ggplot2))
-shhh(library(plotly))
-shhh(library(DT))
-shhh(library(xfun))
-shhh(library(metathis))
-shhh(library(shinyalert))
-shhh(library(shinytest2))
-shhh(library(rstudioapi))
-shhh(library(bslib))
-shhh(library(dfeshiny))
-# shhh(library(shinya11y))
+shhh(library(janitor))
+shhh(library(openxlsx))
+shhh(library(tidyverse)) # various data manipulation
+shhh(library(scales)) # formatting numbers
+shhh(library(plotly)) # interactive plots
+shhh(library(DT)) # create datatables
+shhh(library(writexl)) # write data to xls for download
+shhh(library(sf)) # load map data
+shhh(library(capture)) # screenshots
+shhh(library(shinyalert)) # cookie pop up
+shhh(library(shinycssloaders)) # spinners
+shhh(library(RColorBrewer)) # map colours
+shhh(library(dplyr)) # lots of stuff
+shhh(library(stringr)) # sub_str
+shhh(library(bslib)) # dashboards
+shhh(library(shinytest2)) # dashboards
 
 # Functions ---------------------------------------------------------------------------------
 
